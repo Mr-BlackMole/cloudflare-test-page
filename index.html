@@ -3,15 +3,9 @@
 
 <head>
     <title>firebase phone number auth</title>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
+    <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
     <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
+        var config = {
             apiKey: "AIzaSyB5KGeD58jDKGHQjumNIniefw7q73013aA",
             authDomain: "fir-chat-516bc.firebaseapp.com",
             databaseURL: "https://fir-chat-516bc.firebaseio.com",
@@ -20,8 +14,9 @@
             messagingSenderId: "498719012354",
             appId: "1:498719012354:web:db0c9ddcdca7fbed44591b"
         };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
+
+        firebase.initializeApp(config);
+
     </script>
     <style>
         button {
@@ -42,5 +37,4 @@
 
     <script src="index.js"></script>
 </body>
-
 </html>
